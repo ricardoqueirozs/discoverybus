@@ -7,3 +7,6 @@
 /*Section*/
 @import "section/home.css";
 @import "section/partida.css";
+
+/*Footer*/
+@import "footer/footer.css";

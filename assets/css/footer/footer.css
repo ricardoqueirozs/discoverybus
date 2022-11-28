@@ -1,0 +1,30 @@
+#footer{
+    color: var(--corBranco);
+    background-color: var(--corFundo);
+    text-align: center;
+    padding: 20px;
+}
+
+#footer_info{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#footer_info a{
+    color: #dadce0ff;
+    font-size: .9em;
+}
+
+#footer_direitos p{
+    font-size: .9em;
+}
+
+@media (min-width: 700px){
+    #footer_info{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
