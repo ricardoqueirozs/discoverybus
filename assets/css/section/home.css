@@ -1,0 +1,18 @@
+#section_home{
+    position: relative;
+    height: 350px;
+    margin-top: 3.5em;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .8)), url(../../imagens/imagem_fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section_home  h1{
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 2em;
+    color: var(--corBranco);
+}
