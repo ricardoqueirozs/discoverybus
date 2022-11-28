@@ -10,7 +10,7 @@
 
 :root {
     /*Cores*/
-    --corPrincipal: #00d2dfff;
+    --corPrincipal: #f70000ff;
     --corBranco: #fff;
     --corFundo: #151515ff;
 }
@@ -34,5 +34,6 @@ img {
 }
 
 body{
+
     height: 5000px;
 }
