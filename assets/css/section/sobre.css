@@ -1,0 +1,26 @@
+#sobre{
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#sobre img{
+    width: 500px;
+    border-radius: 6px;
+}
+
+#sobre_info{
+    text-align: center;
+}
+
+#sobre_info p{
+    text-align: justify;
+}
+
+@media (min-width: 1000px){
+    #sobre{
+        flex-direction: row;
+    }
+}
